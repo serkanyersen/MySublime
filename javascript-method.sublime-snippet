@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[${1:name}: function (${2:argument}) {
+    var self = this;
+    ${0:// body...}
+},]]></content>
+    <tabTrigger>met</tabTrigger>
+    <scope>source.js</scope>
+    <description>Method</description>
+</snippet>
