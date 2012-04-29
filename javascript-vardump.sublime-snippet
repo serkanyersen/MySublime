@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+console.log('${1:$TM_SELECTED_TEXT}: (%s) ', typeof $1, $1);
+]]></content>
+    <tabTrigger>vardump</tabTrigger>
+    <scope>source.js</scope>
+    <description>Console Log a Variable with type</description>
+</snippet>
