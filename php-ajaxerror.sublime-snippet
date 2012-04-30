@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$this->error(array("${1:anykey}" => ${2:\$value}), ${3:statusCode});
+]]></content>
+    <tabTrigger>error</tabTrigger>
+    <scope>source.php</scope>
+    <description>send an error output to ajax response</description>
+</snippet>

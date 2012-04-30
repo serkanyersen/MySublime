@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+class ${1:ClassName} extends AjaxHandler{
+	
+	public function ${2:actionName}(){
+
+		${3:// Code Here}
+
+		\$this->success();
+	}
+}
+\$ajax = new ${1}(\$_REQUEST);
+\$ajax->execute();
+]]></content>
+    <tabTrigger>ajaxhandler</tabTrigger>
+    <scope>source.php</scope>
+    <description>Creates a ajax handler class</description>
+</snippet>
