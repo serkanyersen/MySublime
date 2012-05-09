@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+try{
+	${1:$TM_SELECTED_TEXT}
+}catch(e){
+	if("all" in document){
+	    // Stupid IE cannot print objects
+		for(var k in e){
+			console.error(k+" => "+e[k]);
+		}
+	}else{
+		console.error(e);
+	}
+}
+]]></content>
+    <tabTrigger>try</tabTrigger>
+    <scope>source.js</scope>
+    <description>try/catch block</description>
+</snippet>
