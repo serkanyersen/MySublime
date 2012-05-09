@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<script type="text/template" id="${1:id}">
+	${2:Title: <%=title%>}
+</script>
+]]></content>
+    <tabTrigger>ut</tabTrigger>
+    <scope>text.html</scope>
+    <description>create an underscore template</description>
+</snippet>
