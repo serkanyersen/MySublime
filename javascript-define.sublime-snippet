@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[RB.utils.define('RB.${1:ModuleName}', function() {
+
+    var $1 = ${0:ModuleCode;}
+
+
+    return $1;
+});
+]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.js</scope>
+    <description>define block for including</description>
+</snippet>
