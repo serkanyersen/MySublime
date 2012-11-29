@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+function(${1:e}){ ${2:$TM_SELECTED_TEXT} }${3:;}
+]]></content>
+    <tabTrigger>noop</tabTrigger>
+    <scope>source.js</scope>
+    <description>Anonymous function</description>
+</snippet>
