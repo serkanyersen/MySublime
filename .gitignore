@@ -1,2 +1,4 @@
 .DS_*
 MySublime.pyc
+*.sublime-workspace
+*.sublime-project
