@@ -3,6 +3,6 @@
 import pdb; pdb.set_trace()
 ]]></content>
     <tabTrigger>debug</tabTrigger>
-    <scope>source.py</scope>
+    <scope>source.python</scope>
     <description>stop server and debug the environment</description>
 </snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<% } else${1: if()} { %>
+]]></content>
+    <tabTrigger>else</tabTrigger>
+    <scope>text.html</scope>
+    <description>underscore else</description>
+</snippet>

@@ -1,0 +1,9 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+    <content><![CDATA[
+{% endif %}
+]]> </content>
+    <tabTrigger>endif</tabTrigger>
+    <scope>text.html.django</scope>
+    <description>django endif</description>
+</snippet>

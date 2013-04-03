@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[#!/usr/bin/env python
+# Copyright 2013 Red Beacon, Inc. - All Rights Reserved
+#
+# This code, and all derivative work, is the exclusive property of
+# Red Beacon, Inc. and may not be used without Red Beacon, Inc.'s
+# authorization.
+#
+# Author: ${1:Serkan Yersen}
+]]></content>
+    <tabTrigger>copy</tabTrigger>
+    <scope>source.python</scope>
+    <description>Copyright Text for Redbeacon</description>
+</snippet>

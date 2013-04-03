@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<% if(${1:$TM_SELECTED_TEXT}){ %>
+]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>text.html</scope>
+    <description>underscore if</description>
+</snippet>

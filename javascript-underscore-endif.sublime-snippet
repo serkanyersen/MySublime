@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<% } %>
+]]></content>
+    <tabTrigger>endif</tabTrigger>
+    <scope>text.html</scope>
+    <description>underscore endif</description>
+</snippet>
