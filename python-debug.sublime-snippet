@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-import pdb; pdb.set_trace()
+import pudb; pu.db
 ]]></content>
-    <tabTrigger>debug</tabTrigger>
+    <tabTrigger>pudb</tabTrigger>
     <scope>source.python</scope>
     <description>stop server and debug the environment</description>
 </snippet>
