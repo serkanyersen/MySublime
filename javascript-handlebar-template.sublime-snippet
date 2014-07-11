@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<template name="${1:template}">
+  $2
+</template>
+]]></content>
+    <tabTrigger>template</tabTrigger>
+    <scope>text.html</scope>
+    <description>Handlebar Template</description>
+</snippet>

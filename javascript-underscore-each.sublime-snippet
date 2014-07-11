@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<% _.each(${1:obj}, function(${2:item}){ %>
+    <%=${2:item}{$3}%>
+<% }) %>
+]]></content>
+    <tabTrigger>each</tabTrigger>
+    <scope>text.html</scope>
+    <description>underscore each</description>
+</snippet>
