@@ -6,3 +6,30 @@
     <scope>text.html</scope>
     <description>Put underscore template tags here</description>
 </snippet>
+
+<snippet>
+    <content><![CDATA[
+<% if(${1:$TM_SELECTED_TEXT}){ %>
+]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>text.html</scope>
+    <description>underscore if</description>
+</snippet>
+
+<snippet>
+    <content><![CDATA[
+<% } else${1: if()} { %>
+]]></content>
+    <tabTrigger>else</tabTrigger>
+    <scope>text.html</scope>
+    <description>underscore else</description>
+</snippet>
+
+<snippet>
+    <content><![CDATA[
+<% } %>
+]]></content>
+    <tabTrigger>endif</tabTrigger>
+    <scope>text.html</scope>
+    <description>underscore endif</description>
+</snippet>
